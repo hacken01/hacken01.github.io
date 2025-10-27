@@ -11,7 +11,7 @@ hero:
 <section id="about">
   <div class="page-header">
     <h2>About Me</h2>
-    <p class="page-subtitle">Passionate developer crafting digital solutions</p>
+    <p class="page-subtitle">Passionate about technology developing new AI Solutions</p>
   </div>
   
   <div class="about-section">
@@ -97,7 +97,7 @@ hero:
 <section id="contact" style="padding: 4rem 0;">
   <div class="page-header">
     <h2>Get In Touch</h2>
-    <p class="page-subtitle">I'd love to hear from you</p>
+    <p class="page-subtitle">Let me know if you hae any questions</p>
   </div>
   
   <div class="contact-form">

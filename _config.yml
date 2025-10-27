@@ -1,9 +1,9 @@
 # Site settings
 title: "Hacken01"
-description: "Custom GitHub Pages Site"
+description: "Personal website of Hacken01"
 url: "https://hacken01.github.io"
 author: Hacken01
-email: your-email@example.com
+email: arancibiagabriel@outlook.com
 
 # Build settings
 markdown: kramdown
