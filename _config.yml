@@ -1,3 +1,43 @@
-remote_theme: pages-themes/architect@v0.2.0
+# Site settings
+title: "Hacken01"
+description: "Custom GitHub Pages Site"
+url: "https://hacken01.github.io"
+author: Hacken01
+email: your-email@example.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+# Plugins
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Custom settings
+show_downloads: false
+google_analytics: # Add your tracking ID if needed
+
+# Navigation
+navigation:
+  - name: Home
+    url: /
+  - name: About
+    url: /about
+  - name: Portfolio
+    url: /portfolio
+  - name: Contact
+    url: /contact

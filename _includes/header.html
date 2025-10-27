@@ -1,0 +1,53 @@
+<header class="site-header">
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </div>
+      
+      <ul class="nav-menu">
+        {% if site.navigation %}
+          {% for item in site.navigation %}
+            <li class="nav-item">
+              <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.name }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+      
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="main-content">
+  {% if page.hero %}
+    <section class="hero-section">
+      <div class="hero-background">
+        <div class="hero-overlay"></div>
+        <div class="hero-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          {% if page.hero.title %}
+            <h1 class="hero-title">{{ page.hero.title }}</h1>
+          {% endif %}
+          {% if page.hero.subtitle %}
+            <p class="hero-subtitle">{{ page.hero.subtitle }}</p>
+          {% endif %}
+          {% if page.hero.cta %}
+            <a href="{{ page.hero.cta.link }}" class="btn btn-primary">{{ page.hero.cta.text }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
