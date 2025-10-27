@@ -45,17 +45,12 @@ subtitle: Let's work together
         <span>GitHub</span>
       </a>
       
-      <a href="https://twitter.com" target="_blank" style="display: flex; flex-direction: column; align-items: center; text-align: center; color: #374151; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <i class="fab fa-twitter" style="font-size: 3rem; margin-bottom: 0.5rem; color: #2563eb;"></i>
-        <span>Twitter</span>
-      </a>
-      
-      <a href="https://linkedin.com" target="_blank" style="display: flex; flex-direction: column; align-items: center; text-align: center; color: #374151; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      <a href="https://www.linkedin.com/in/gabrielarancibia/" target="_blank" style="display: flex; flex-direction: column; align-items: center; text-align: center; color: #374151; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
         <i class="fab fa-linkedin" style="font-size: 3rem; margin-bottom: 0.5rem; color: #2563eb;"></i>
         <span>LinkedIn</span>
       </a>
       
-      <a href="mailto:your-email@example.com" style="display: flex; flex-direction: column; align-items: center; text-align: center; color: #374151; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      <a href="mailto:arancibiagabriel@outlook.com" style="display: flex; flex-direction: column; align-items: center; text-align: center; color: #374151; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
         <i class="fas fa-envelope" style="font-size: 3rem; margin-bottom: 0.5rem; color: #2563eb;"></i>
         <span>Email</span>
       </a>
