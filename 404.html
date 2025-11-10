@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="404 - Page Not Found">
+    <title>404 - Page Not Found | Hacken01</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            background: var(--bg-primary);
+        }
+        
+        .error-content {
+            max-width: 600px;
+        }
+        
+        .error-code {
+            font-family: var(--font-display);
+            font-size: clamp(6rem, 15vw, 12rem);
+            font-weight: 900;
+            color: var(--iron-red);
+            text-shadow: 0 0 30px rgba(196, 30, 58, 0.5);
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+        
+        .error-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            color: var(--iron-gold);
+            margin-bottom: 1rem;
+        }
+        
+        .error-message {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-content">
+            <div class="error-code">404</div>
+            <h1 class="error-title">Oops! Page Not Found</h1>
+            <p class="error-message">
+                The page you're looking for doesn't exist or has been moved.
+                Let's get you back on track!
+            </p>
+            <div class="error-actions">
+                <a href="index.html" class="btn btn-primary">
+                    <span>Back to Home</span>
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="portfolio.html" class="btn btn-secondary">
+                    <span>View Portfolio</span>
+                    <i class="fas fa-briefcase"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
