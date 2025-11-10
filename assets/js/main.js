@@ -89,8 +89,8 @@ function createParticle(container) {
     particle.style.animationDuration = duration + 's';
     particle.style.animationDelay = Math.random() * 5 + 's';
     
-    // Random color (gold or red)
-    const colors = ['#FFD700', '#C41E3A', '#FF1744'];
+    // Random color (light blue or red)
+    const colors = ['#4FC3F7', '#C41E3A', '#FF1744'];
     particle.style.background = colors[Math.floor(Math.random() * colors.length)];
     
     container.appendChild(particle);
@@ -273,7 +273,7 @@ function initAnimations() {
         setInterval(() => {
             heroTitle.style.textShadow = `
                 2px 2px 0 #C41E3A,
-                -2px -2px 0 #FFD700,
+                -2px -2px 0 #4FC3F7,
                 0 0 20px rgba(196, 30, 58, 0.5)
             `;
             setTimeout(() => {

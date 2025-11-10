@@ -8,9 +8,9 @@
     --iron-red: #C41E3A;
     --iron-red-dark: #8B0000;
     --iron-red-light: #FF1744;
-    --iron-gold: #FFD700;
-    --iron-gold-dark: #B8860B;
-    --iron-gold-light: #FFE44D;
+    --iron-gold: #4FC3F7;
+    --iron-gold-dark: #0288D1;
+    --iron-gold-light: #81D4FA;
     
     /* Dark Theme */
     --bg-primary: #0A0A0A;
@@ -272,7 +272,7 @@ body {
 
 .hero-title .glitch.gold {
     color: var(--iron-gold);
-    text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    text-shadow: 0 0 20px rgba(79, 195, 247, 0.5);
     margin-top: var(--spacing-xs);
 }
 
@@ -423,7 +423,7 @@ body {
     background: var(--iron-gold);
     color: var(--bg-primary);
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
+    box-shadow: 0 10px 30px rgba(79, 195, 247, 0.4);
 }
 
 /* Section Styles */
@@ -457,7 +457,7 @@ section {
 
 .title-text {
     color: var(--iron-gold);
-    text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    text-shadow: 0 0 20px rgba(79, 195, 247, 0.5);
 }
 
 .section-subtitle {
@@ -548,7 +548,7 @@ section {
 .skill-item:hover {
     transform: translateY(-5px);
     border-color: var(--iron-gold);
-    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(79, 195, 247, 0.3);
 }
 
 .skill-icon {
@@ -592,7 +592,7 @@ section {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(79, 195, 247, 0.1) 0%, transparent 70%);
     opacity: 0;
     transition: opacity var(--transition-base);
 }
@@ -604,7 +604,7 @@ section {
 .feature-card:hover {
     transform: translateY(-10px);
     border-color: var(--iron-gold);
-    box-shadow: 0 20px 40px rgba(255, 215, 0, 0.2);
+    box-shadow: 0 20px 40px rgba(79, 195, 247, 0.2);
 }
 
 .feature-icon {
@@ -679,7 +679,7 @@ section {
 .form-textarea:focus {
     outline: none;
     border-color: var(--iron-gold);
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 0 20px rgba(79, 195, 247, 0.3);
 }
 
 .form-textarea {
@@ -797,7 +797,7 @@ section {
     background: var(--iron-gold);
     color: var(--bg-primary);
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
+    box-shadow: 0 10px 30px rgba(79, 195, 247, 0.4);
 }
 
 /* Animations */

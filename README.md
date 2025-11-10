@@ -11,7 +11,7 @@ Inspired by Tony Stark, this portfolio is designed with cutting-edge technology 
 - 🛠️ **Skills & Experience**: Interactive sections that make your skills and experiences pop, offering an intuitive way to explore your expertise
 - 📱 **Responsive Design**: Built to be fully responsive and seamlessly adaptable across all devices, ensuring a smooth experience whether on desktop or mobile
 - ✨ **Interactive Elements**: With engaging animations and smooth transitions, each interaction reflects the innovative spirit of Tony Stark, bringing your portfolio to life
-- 🎨 **Iron Man Theme**: Red and gold color scheme with futuristic design elements
+- 🎨 **Iron Man Theme**: Red and light blue color scheme with futuristic design elements
 
 ## 🛠 Tech Stack
 
@@ -75,7 +75,7 @@ hacken01.github.io/
 
 The theme uses Iron Man inspired colors defined in CSS variables:
 - **Iron Red**: `#C41E3A` - Primary red color
-- **Iron Gold**: `#FFD700` - Gold accent color
+- **Iron Gold**: `#4FC3F7` - Light blue accent color
 - **Dark Background**: `#0A0A0A` - Primary background
 
 Edit `assets/css/style.css` to customize colors:
@@ -83,7 +83,7 @@ Edit `assets/css/style.css` to customize colors:
 ```css
 :root {
     --iron-red: #C41E3A;
-    --iron-gold: #FFD700;
+    --iron-gold: #4FC3F7;
     --bg-primary: #0A0A0A;
     /* ... other variables */
 }
